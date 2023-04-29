@@ -15,7 +15,7 @@ bot.on("message:text", async (ctx) => {
 bot.start();
 
 async function callGPTAPI(prompt) {
-    const apiKey = "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";
+    const apiKey = process.env.OPENAI_API_KEY;
     const apiUrl = "https://api.openai.com/v1/chat/completions";
   
     const headers = {
