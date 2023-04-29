@@ -1,0 +1,19 @@
+{
+  "name": "ai-devs",
+  "version": "1.0.0",
+  "main": "telegramBot.ts",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^18.16.2",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "grammy": "^1.16.0",
+    "typescript": "^5.0.4"
+  },
+  "scripts": {
+    "start": "nodemon telegramBot.js"
+  }
+}
