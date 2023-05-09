@@ -16,7 +16,7 @@ bot.start();
 
 async function callGPTAPI(prompt) {
     const apiKey = process.env.OPENAI_API_KEY;
-    const apiUrl = "https://api.openai.com/v1/chat/completions";
+    const apiUrl = "https://api.openai.com/v1/chat";
   
     const headers = {
       "Content-Type": "application/json",
